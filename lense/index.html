@@ -1,63 +1,48 @@
+<!DOCTYPE html>
 <html>
 <head>
 <style>
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
+* {
+  box-sizing: border-box;
+}
+
+.column {
   float: left;
-  width: 180px;
+  width: 25%;
+  padding: 5px;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 </style>
 </head>
 <body>
-
-  <nav>
-    	<ul>
-        	<li><a href="/">Home</a></li>
-	        <li><a href="/publications">Publications</a></li>
-        	<li><a href="/cv">CV</a></li>
-        	<li><a href="/sketching">Sketching</a></li>
-			     <li><a href="/lense">Through the lense</a></li>
-    	</ul>
-  </nav>
   
-<div class="gallery">
-  <a target="_blank">
-    <img src="sunset.JPG" width="1500" height="1000">
-  </a>
-</div>
+<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/publications">Publications</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/sketching">Sketching</a></li>
+			<li><a href="/lense">Through the lense</a></li>
+    		</ul>
+</nav>
 
-<div class="gallery">
-  <a target="_blank">
-    <img src="shadow_sunset.JPG" width="1500" height="1000">
-  </a>
-</div>
+<h2>Through the lense</h2>
 
-<div class="gallery">
-  <a target="_blank">
-    <img src="market.JPG" width="1500" height="1000">
-  </a>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="sunset.JPG" style="width:100%">
+    <img src="shadow_sunset.JPG" style="width:100%">
+    <img src="market.JPG" style="width:100%">
+    <img src="devon.JPG" style="width:100%">
+  </div> 
 </div>
-
-<div class="gallery">
-  <a target="_blank">
-    <img src="devon.JPG" width="1500" height="1000">
-  </a>
-</div>
-
+  
 </body>
 </html>
