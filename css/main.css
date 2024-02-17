@@ -1,3 +1,17 @@
+@import "./styles.css";
+
+:root{
+    --h-title-color:#3948d2;
+}
+
+.header {
+    border-bottom: solid 2px var(--bs-blue);
+}
+
+.bg-bottom {
+    background-color: var(--h-title-color);
+}
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -14,14 +28,15 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #1565c0;
 }
 a:hover {
+    color: #217ee7;
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: larger;
+    font-family:'Source Sans Pro', sans-serif;
 }
 p {
     font-size: 1.5em;
@@ -54,7 +69,7 @@ padding: 0px;
 display: block;
 margin: 0px;
 padding: 0px;
-position: relative;
+position: absolute;
 top: 90px;
 height: auto;
 max-width: auto;
