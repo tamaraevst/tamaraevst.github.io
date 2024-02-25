@@ -1,7 +1,7 @@
 @import "./styles.css";
 
 :root{
-    --h-title-color:#3948d2;
+    --h-title-color:#4141c3;
 }
 
 .header {
@@ -39,8 +39,8 @@ h1 {
     font-family:'Source Sans Pro', sans-serif;
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.0em;
+    /* line-height: 1.4em; */
     color: #333;
 }
 footer {
