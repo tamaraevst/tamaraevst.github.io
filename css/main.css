@@ -17,17 +17,11 @@ body {
     width: 70%;
 }
 
-footer ul {
+nav ul, footer ul {
     font-family:'Newsreader';
     padding: 0px;
     list-style: none;
     font-weight: bold;
-}
-
-nav ul {
-    font-family:'Newsreader';
-    padding: 0px;
-    list-style: none;
 }
 
 nav ul li, footer ul li {
@@ -43,7 +37,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: larger;
+    font-size: 1.0em;
     font-family:'Newsreader';
 }
 p {

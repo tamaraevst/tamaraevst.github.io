@@ -215,10 +215,10 @@ blockquote {
   margin: 0 0 1rem;
 }
 
-b,
+/* b,
 strong {
   font-weight: bolder;
-}
+} */
 
 small, .small {
   font-size: 0.875em;
@@ -7964,17 +7964,17 @@ textarea.form-control-lg {
   font-weight: 500 !important;
 }
 
-.fw-bold {
+/* .fw-bold {
   font-weight: 700 !important;
 }
 
 .fw-semibold {
   font-weight: 600 !important;
-}
+} */
 
-.fw-bolder {
+/* .fw-bolder {
   font-weight: bolder !important;
-}
+} */
 
 .lh-1 {
   line-height: 1 !important;
