@@ -28,7 +28,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #1565c0;
+    color: #393e84;
 }
 a:hover {
     color: #217ee7;
@@ -39,7 +39,7 @@ h1 {
     font-family:'Source Sans Pro', sans-serif;
 }
 p {
-    font-size: 1.0em;
+    font-size: .8em;
     /* line-height: 1.4em; */
     color: #333;
 }
