@@ -37,16 +37,17 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 1.0em;
+    font-size: 1.2em;
     font-family:'Newsreader';
 }
 p {
-    font-size: 1.0em;
+    font-size: 1.2em;
     /* line-height: 1.4em; */
     color: #333;
 }
 footer {
-    border-top: 1px solid #8891b6;
+    border-top: 1px solid #363844;
+    background-color: #9a9fc9;
     padding: 50px;
     font-size: .8em;
 }
