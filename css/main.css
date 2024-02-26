@@ -22,7 +22,6 @@ nav ul, footer ul {
     background-color: #7a80aa;
     padding: 50px;
     list-style: none;
-    font-weight: bold;
 }
 
 nav ul li, footer ul li {
@@ -32,6 +31,7 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
     color: #5259b4;
+    font-weight: bold;
 }
 a:hover {
     color: #217ee7;
@@ -42,15 +42,15 @@ h1 {
     font-family:'Newsreader';
 }
 p {
-    font-size: 1em;
+    font-size: 0.9em;
     /* line-height: 1.4em; */
     color: #333;
 }
 footer {
-    border-top: 1px solid #363844;
-    background-color: #9a9fc9;
-    padding: 50px;
+    border-top: 1px solid #b7bbd2;
+    padding: 3px;
     font-size: .8em;
+    font-weight: bold;
 }
 
 ul.posts { 
