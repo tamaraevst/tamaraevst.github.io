@@ -19,8 +19,8 @@ body {
 
 nav ul, footer ul {
     font-family:'Newsreader';
-    background-color: #7a80aa;
-    padding: 50px;
+    background-color: #b7bbd2;;
+    padding: 10px;
     list-style: none;
 }
 
@@ -30,7 +30,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    /* color: #5259b4; */
+    color: #313ab7;
     font-weight: bold;
 }
 a:hover {
@@ -47,7 +47,7 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #b7bbd2;
+    border-top: 1px solid #54565f;
     padding: 3px;
     font-size: .8em;
     font-weight: bold;
