@@ -1,8 +1,8 @@
 @import "./styles.css";
 
-/* :root{
+:root{
     --h-title-color:#b1b1ed;
-} */
+}
 
 .header {
     border-bottom: solid 2px var(--bs-blue);
@@ -17,12 +17,12 @@ body {
     width: 70%;
 }
 
-nav ul, footer ul {
+/* nav ul, footer ul {
     font-family:'Newsreader';
     background-color: #b1b1ed;
     padding: 10px;
     list-style: none;
-}
+} */
 
 nav ul li, footer ul li {
     display: inline;
