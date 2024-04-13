@@ -1,7 +1,7 @@
 @import "./styles.css";
 
 :root{
-    --h-title-color:#4141c3;
+    --h-title-color:#b1b1ed;
 }
 
 .header {
@@ -19,7 +19,7 @@ body {
 
 nav ul, footer ul {
     font-family:'Newsreader';
-    background-color: #b7bbd2;;
+    background-color: #b1b1ed;
     padding: 10px;
     list-style: none;
 }
@@ -30,7 +30,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #313ab7;
+    color: #9466b8;
     font-weight: bold;
 }
 a:hover {
