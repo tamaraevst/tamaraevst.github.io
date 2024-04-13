@@ -1,13 +1,44 @@
-<link rel="stylesheet" type="text/css" href="../css/slidehow.css">
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/slideshow.css">
+<style>
+  * {
+  box-sizing: border-box;
+  }
 
+  .text {
+  	 	  padding-left: 50px;
+			  font-family: 'Newsreader';
+    		  /* padding-top: 5%; */
+    		float: right;
+  }
+
+  .column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  }
+
+  /* Clearfix (clear floats) */
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+</style>
+
+</head>
+<body>
+  
 <nav>
-  <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/publications">Publications</a></li>
-      <li><a href="/cv">CV</a></li>
-      <li><a href="/sketching">Sketching</a></li>
-<li><a href="/lense">Through the lense</a></li>
-  </ul>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/publications">Publications</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/sketching">Sketching</a></li>
+			<li><a href="/lense">Through the lense</a></li>
+    		</ul>
 </nav>
 
 <div class="slideshow-container">
@@ -23,3 +54,6 @@
   <a class="prev" onclick="prevSlide()">&#10094;</a>
   <a class="next" onclick="nextSlide()">&#10095;</a>
 </div>
+
+</body>
+</html>
