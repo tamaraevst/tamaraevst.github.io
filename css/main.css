@@ -1,8 +1,8 @@
 @import "./styles.css";
 
-:root{
+/* :root{
     --h-title-color:#b1b1ed;
-}
+} */
 
 .header {
     border-bottom: solid 2px var(--bs-blue);
