@@ -4,13 +4,13 @@
     --h-title-color:#b1b1ed;
 }
 
-.header {
+/* .header {
     border-bottom: solid 2px var(--bs-blue);
-}
+} */
 
-.bg-bottom {
+/* .bg-bottom {
     background-color: var(--h-title-color);
-}
+} */
 
 body {
     margin: 60px auto;
