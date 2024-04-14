@@ -1,11 +1,11 @@
 .slideshow-container {
     position: relative;
-    width: 50%;
+    width: 33.3%;
     height: 100px;
   }.slide {
     position: absolute;
-    width: 50%;
-    height: 50%;
+    width: 33.3%;
+    height: 33.3%;
     display: none;
   }.slide:first-child {
     display: block;
