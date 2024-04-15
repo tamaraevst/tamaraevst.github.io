@@ -85,14 +85,14 @@ white-space:nowrap;
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 300px;
+    max-width: 400px;
     position: relative;
     margin: auto;
   }
 
 /* Hide the images by default */
 .mySlides {
-    display: flex;
+    display: none;
   }
   
   /* Next & previous buttons */
