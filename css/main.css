@@ -92,7 +92,7 @@ white-space:nowrap;
 
 /* Hide the images by default */
 .mySlides {
-    display: none;
+    display: flex;
   }
   
   /* Next & previous buttons */
