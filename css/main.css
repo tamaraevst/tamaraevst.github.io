@@ -83,6 +83,8 @@ overflow-x:auto;
 white-space:nowrap;
 }
 
+* {box-sizing:border-box}
+
 /* Slideshow container */
 .slideshow-container {
     max-width: 400px;
@@ -92,7 +94,7 @@ white-space:nowrap;
 
 /* Hide the images by default */
 .mySlides {
-    display: flex;
+    display: none;
   }
   
   /* Next & previous buttons */
