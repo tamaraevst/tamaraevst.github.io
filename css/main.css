@@ -30,7 +30,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #9466b8;
+    color: #548edf;
     font-weight: bold;
 }
 a:hover {
@@ -104,7 +104,7 @@ white-space:nowrap;
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: rgb(83, 201, 54);
   font-weight: bold;
   font-size: 24px;
   transition: 0.6s ease;
