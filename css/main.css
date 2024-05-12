@@ -42,7 +42,8 @@ h1 {
     font-family:'Newsreader';
 }
 p {
-    font-size: 0.9em;
+    font-family:'Newsreader';
+    font-size: 1.5em;
     /* line-height: 1.4em; */
     color: #333;
 }
@@ -96,7 +97,7 @@ white-space:nowrap;
 .slideshow-container {
   position: relative;
   width: 100%;
-  height: 270px;
+  height: 170px;
 }.slide {
   position: absolute;
   width: 100%;
