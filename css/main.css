@@ -27,6 +27,7 @@ body {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    font-size: 1.2em;
 }
 a {
     text-decoration: none;
@@ -43,7 +44,7 @@ h1 {
 }
 p {
     font-family:'Newsreader';
-    font-size: 1.0em;
+    font-size: 1.2em;
     /* line-height: 1.4em; */
     color: #333;
 }
