@@ -83,6 +83,13 @@ img.responsive-img {
     justify-content: center;
 }
 
+.circle-image {
+  width: 200px;          /* Set the desired width */
+  height: 200px;         /* Set the height to match the width */
+  border-radius: 50%;    /* Make it circular */
+  object-fit: cover;     /* Ensure the image fills the circle */
+}
+
 .text-container {
     margin-top: 15px; /* Adds spacing between image and text */
 }
