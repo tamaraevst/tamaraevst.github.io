@@ -153,21 +153,58 @@ img.responsive-img {
   margin-right: auto; /* Centers the image horizontally */
 }
 
-/* You can also add a max-width for specific image containers (like in your slideshow) */
+/* Slideshow container styling */
 .slideshow-container {
-  max-width: 33.7%;  /* This limits the maximum width of the slideshow container */
-  margin: 0 auto;  /* Centers the slideshow container on the page */
-  position: relative;
-  overflow: hidden;
+  max-width: 100%;          /* Ensures the container is as wide as the screen allows */
+  width: 80%;               /* Can adjust this width to control the slideshow size */
+  margin: 0 auto;           /* Centers the slideshow horizontally */
+  position: relative;       /* Needed for positioning the arrows */
+  overflow: hidden;         /* Hide any content that overflows the container */
 }
 
+/* Each individual slide */
 .slide {
-  display: inline-block;
-  width: 100%;  /* Make each slide take up the full width of the container */
+  display: none;            /* Hide all slides by default */
+  width: 100%;              /* Make the slides take up the full width of the container */
 }
 
+/* Show the active slide */
+.slide.active {
+  display: block;           /* Show the active slide */
+}
+
+/* Make images responsive within the slides */
 .slide img {
-  width: 100%;  /* Ensures the images in the slideshow scale within their container */
-  height: auto;  /* Maintains the image aspect ratio */
+  width: 100%;              /* Ensure images take up the full width of the slide */
+  height: auto;             /* Maintain aspect ratio */
+  display: block;           /* Remove any unwanted spaces */
+  margin: 0 auto;           /* Center the image */
+}
+
+/* Positioning for the arrows */
+.prev, .next {
+  position: absolute;       /* Position the arrows relative to the slideshow container */
+  top: 50%;                 /* Vertically center the arrows */
+  transform: translateY(-50%); /* Perfectly center the arrows */
+  font-size: 24px;          /* Arrow size */
+  color: white;             /* Arrow color */
+  padding: 16px;            /* Padding around the arrows */
+  background-color: rgba(0, 0, 0, 0.5); /* Dark background for better visibility */
+  border: none;             /* Remove border */
+  cursor: pointer;         /* Show pointer cursor on hover */
+  z-index: 1;               /* Ensure arrows are in front of slides */
+}
+
+.prev {
+  left: 0;                  /* Position the left arrow on the left side */
+}
+
+.next {
+  right: 0;                 /* Position the right arrow on the right side */
+}
+
+/* Optional: Add some styling for the navigation arrows */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
 }
 
