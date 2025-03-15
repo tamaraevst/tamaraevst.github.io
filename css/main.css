@@ -155,7 +155,7 @@ img.responsive-img {
 
 /* Slideshow container styling */
 .slideshow-container {
-  max-width: 100%;          /* Ensures the container is as wide as the screen allows */
+  max-width: 33.7%;          /* Ensures the container is as wide as the screen allows */
   width: 80%;               /* Can adjust this width to control the slideshow size */
   margin: 0 auto;           /* Centers the slideshow horizontally */
   position: relative;       /* Needed for positioning the arrows */
