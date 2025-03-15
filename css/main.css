@@ -67,14 +67,9 @@ img.responsive-img {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 90%;
+    max-width: 50%;
     margin: auto;
-}
-
-.profile-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px; /* Optional: Adds rounded corners */
+    border-radius: 10px;
 }
 
 .image-container {
@@ -180,27 +175,3 @@ img.responsive-img {
   border-radius: 3px 0 0 3px;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-auto-rows: 240px 240px;
-    row-gap: 43px;
-    column-gap: 24px;
-  }
-  figure{
-    background:silver;
-    display:block;
-    width:100%;
-    height:200px;
-    margin:0;
-    padding:0;
-  }
- 
- .inner{
-   display:flex;
-   flex-direction:column;
- }
- 
- .t{
-   margin-top:5px;
- }
