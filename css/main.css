@@ -155,7 +155,7 @@ img.responsive-img {
 
 /* You can also add a max-width for specific image containers (like in your slideshow) */
 .slideshow-container {
-  max-width: 80%;  /* This limits the maximum width of the slideshow container */
+  max-width: 50%;  /* This limits the maximum width of the slideshow container */
   margin: 0 auto;  /* Centers the slideshow container on the page */
   position: relative;
   overflow: hidden;
