@@ -1,83 +1,73 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta name="generator" content="Hugo 0.54.0" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-  		<meta name="HandheldFriendly" content="True">
-  		<meta name="MobileOptimized" content="320">
-  		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
-  		<meta name="author" content="Tamara Evstafyeva">
+<html lang="en">
+<head>
+  <meta name="generator" content="Hugo 0.54.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
+  <meta name="author" content="Tamara Evstafyeva">
 
-		<title>Tamara's webpage</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/publications">Publications</a></li>
-				<li><a href="/media">In the media</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/sketching">Sketching</a></li>
-			<li><a href="/lense">Through the lense</a></li>
-    		</ul>
-		</nav>
+  <title>Tamara's Webpage</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <header>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav>
+      <ul class="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/publications">Publications</a></li>
+        <li><a href="/media">In the Media</a></li>
+        <li><a href="/cv">CV</a></li>
+        <li><a href="/sketching">Sketching</a></li>
+        <li><a href="/lense">Through the Lens</a></li>
+      </ul>
+    </nav>
+  </header>
 
-		<style>
-  		.container {
-    		  display: flex;
-    		  align-items: center;
-    		  justify-content: center;
-  		}
-  	    </style>
-
-  		<body>
-			<br>
+  <div class="container">
     <table cellspacing="15">
-        <tr>
-            <td>
-                <img src="IMG-20231021-WA0015.jpg" width="230px" height="300px">
-            </td>
-            <td>
-				<p>
-					Hello, there!
-				</p> 
-				
-                <p>
-                    I am currently based at Perimeter Institute as a Vera Florence Cooper Rubin Post Doctoral Research Fellow. </p> 
-				
-				<p> I have completed my PhD at Department of Applied Mathematics and Theoretical Physics at the University of Cambridge under the supervision of Professor Ulrich Sperhake.
-					My PhD thesis titled "Uncovering gravitational wave signatures of modified theories of gravity and exotic matter" can be found <a href="https://www.repository.cam.ac.uk/items/f7c6898a-540d-46ef-8fa9-5eaf4aa687ca">here</a>. Prior to that I completed my bachelors and masters degrees in Mathematics at University College London. </p> 
-					
-				</p>
-            </td>
-        </tr>
+      <tr>
+        <td>
+          <img src="IMG-20231021-WA0015.jpg" width="230px" height="300px" class="responsive-img">
+        </td>
+        <td>
+          <p>Hello, there!</p>
+          <p>I am currently based at Perimeter Institute as a Vera Florence Cooper Rubin Postdoctoral Research Fellow.</p>
+          <p>I have completed my PhD at the Department of Applied Mathematics and Theoretical Physics at the University of Cambridge under the supervision of Professor Ulrich Sperhake.
+            My PhD thesis titled "Uncovering gravitational wave signatures of modified theories of gravity and exotic matter" can be found 
+            <a href="https://www.repository.cam.ac.uk/items/f7c6898a-540d-46ef-8fa9-5eaf4aa687ca">here</a>. Prior to that, I completed my bachelor's and master's degrees in Mathematics at University College London.</p>
+        </td>
+      </tr>
     </table>
+  </div>
 
-	<p> My current work broadly concerns numerical relativity and tests of general relativity (GR) using gravitational waves. I am interested in modelling and understading the dynamics 
-		of compact objects in modified theories of gravity and the effects of "exotic matter". A few questions I am interested in... What are the gravitational wave signatures in theories beyond general relativity and the Standard Model of particle physics? 
-		Can we distinguish the effects of such theories or break any possible degeneracies? What are the stability properties of exotic compact objects?  
-		Although my work is driven by the numerics, I am also interested in exploring the observational implications of modified theories of gravity and exotic compact objects. 
-		I therefore strive to create a synergy between numerical relativity simulations and data analysis (like Bayesian inference) and understand whether a specific theory in
-		question can be probed with current or future gravitational wave detectors.
-	</p>
+  <p>My current work broadly concerns numerical relativity and tests of general relativity (GR) using gravitational waves. I am interested in modeling and understanding the dynamics
+    of compact objects in modified theories of gravity and the effects of "exotic matter." Some questions I explore: What are the gravitational wave signatures in theories beyond general relativity and the Standard Model of particle physics?
+    Can we distinguish these effects or break any possible degeneracies? What are the stability properties of exotic compact objects? Although my work is driven by numerics, I am also interested in exploring observational implications
+    of modified theories of gravity and exotic compact objects. I aim to create a synergy between numerical relativity simulations and data analysis (such as Bayesian inference) to determine whether a specific theory can be probed with current or future gravitational wave detectors.
+  </p>
 
-	<p>
-		I am part of an amazing numerical relativity code collaboration <a href="https://www.grchombo.org/">GRChombo</a> (also known as the GRTLCollaboration). 
-		In recent years, our collaboration gained a lot of new members and made lots of progress towards making the code open source, see our <a href="https://github.com/GRTLCollaboration">repository</a> for the latest updates. 
-		I am also a member of <a href="https://www.ligo.org/">LIGO-Virgo-KAGRA</a> collaboration, which made the first observation of the gravitational wave 
-		event GW150914 from a binary black hole merger.
+  <p>I am part of an amazing numerical relativity code collaboration <a href="https://www.grchombo.org/">GRChombo</a> (also known as the GRTLCollaboration).
+    Our collaboration has grown significantly in recent years, and we have made significant progress toward making the code open source—see our <a href="https://github.com/GRTLCollaboration">repository</a> for the latest updates.
+    I am also a member of the <a href="https://www.ligo.org/">LIGO-Virgo-KAGRA</a> collaboration, which made the first observation of the gravitational wave event GW150914 from a binary black hole merger.
+  </p>
 
-	<p> 
-		The full list of my publications can be found <a href="https://tamaraevst.github.io/publications/">here</a>.
-	</p>
+  <p>The full list of my publications can be found <a href="https://tamaraevst.github.io/publications/">here</a>.</p>
 
-		<footer>
-    		<ul>
-        		<li><a href="mailto:te307@cam.ac.uk">email</a></li>
-        		<li><a href="https://github.com/tamaraevst">github.com/tamaraevst</a></li>
-			</ul>
-		</footer>
-	</body>
+  <footer>
+    <ul>
+      <li><a href="mailto:te307@cam.ac.uk">Email</a></li>
+      <li><a href="https://github.com/tamaraevst">GitHub</a></li>
+    </ul>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.menu').classList.toggle('active');
+    }
+  </script>
+</body>
 </html>
+
