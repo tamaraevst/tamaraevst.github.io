@@ -1,7 +1,7 @@
 @import "./styles.css";
 
 :root {
-    --h-title-color: #b1b1ed;
+    /* --h-title-color: #b1b1ed; */
     --text-color: #333;
     --link-color: #548edf;
 }
@@ -30,12 +30,16 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: var(--link-color);
+    color: var(--link-color, #548edf);
     font-weight: bold;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+a {
+  color: var(--link-color, #548edf)
 }
 
 h1 {
@@ -50,9 +54,9 @@ p {
 
 footer {
     border-top: 1px solid #54565f;
-    padding: 10px;
-    font-size: 0.8em;
-    text-align: center;
+    padding: 3px;
+    font-size: .8em;
+    font-weight: bold;
 }
 
 img.responsive-img {
@@ -87,6 +91,10 @@ img.responsive-img {
 
 .text-container {
     margin-top: 15px; /* Adds spacing between image and text */
+    width: 80%; /* or 100% */
+    max-width: 1000px; /* increase as needed */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container {
