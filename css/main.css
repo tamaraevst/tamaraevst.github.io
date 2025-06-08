@@ -51,6 +51,7 @@ p {
 }
 
 footer {
+    color: var(--text-color);
     border-top: 1px solid #54565f;
     padding: 3px;
     font-size: .8em;
@@ -91,8 +92,8 @@ img.responsive-img {
     margin-top: 15px; /* Adds spacing between image and text */
     width: 100%; /* or 100% */
     max-width: 3000px; /* increase as needed */
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .container {
