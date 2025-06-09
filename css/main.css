@@ -110,7 +110,7 @@ img.responsive-img {
 }
 
 .text-container {
-    width: 100vw; /* Viewport width */
+    width: 50vw; /* Viewport width */
     position: relative;
     left: 50%;
     right: 50%;
